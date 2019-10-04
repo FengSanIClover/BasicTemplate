@@ -14,7 +14,7 @@ namespace Autofac.API
         [HttpGet]
         public IActionResult Test1()
         {
-            return Success("OK");
+            return Success("OKOK");
         }
     }
 }
