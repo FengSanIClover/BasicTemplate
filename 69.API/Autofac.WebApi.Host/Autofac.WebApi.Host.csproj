@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="URF.Core.Abstractions" Version="2.2.0" />
+    <PackageReference Include="URF.Core.All" Version="2.2.0" />
+    <PackageReference Include="URF.Core.EF" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\62.FeatureModules\Autofac.Interface\Autofac.Interface.csproj" />
+    <ProjectReference Include="..\..\62.FeatureModules\Autofac.Service\Autofac.Service.csproj" />
+    <ProjectReference Include="..\..\68.WebAPI\Autofac.API\Autofac.API.csproj" />
+  </ItemGroup>
+
+</Project>
